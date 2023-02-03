@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_pixel_station_blue",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 52,
   "height": 72,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 4,
   "gridY": 4,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"df557544-b95e-4666-a23c-be9997a07ec2","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df557544-b95e-4666-a23c-be9997a07ec2","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},"LayerId":{"name":"463fa357-3671-49df-a7c6-c90023f79bf5","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pixel_station_blue","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},"resourceVersion":"1.0","name":"df557544-b95e-4666-a23c-be9997a07ec2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df557544-b95e-4666-a23c-be9997a07ec2",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pixel_station_blue","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_pixel_station_blue",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"be49c427-f55e-4e71-8c62-fc9a7114a267","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df557544-b95e-4666-a23c-be9997a07ec2","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 36,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pixel_station_blue","path":"sprites/spr_pixel_station_blue/spr_pixel_station_blue.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_pixel_station_blue",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"463fa357-3671-49df-a7c6-c90023f79bf5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"463fa357-3671-49df-a7c6-c90023f79bf5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Art",
     "path": "folders/Art.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_pixel_station_blue",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
